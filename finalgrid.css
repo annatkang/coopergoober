@@ -1,0 +1,60 @@
+#grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: (2fr, 2fr, 1fr, 2fr, 1fr);
+    grid-column-gap: 2.08%;
+    max-width: 1000px;
+    margin-left: 1.04%;
+    margin-right: 1.04%;
+    margin: 0 auto;
+    /*grid-auto-rows: minmax(100px, auto);*/
+    background-color: rgb(235, 235, 255);
+}
+
+
+.section-1 {
+    grid-row: 1;
+}
+
+/*hero*/
+.section-2 {
+    grid-column: 1/13;
+    grid-row: 1;
+}
+
+
+/*hero trio images*/
+.section-3 {
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+/*videos*/
+.section-4 {
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+/*3 cards with text*/
+.section-5 {
+    grid-column: 1/13;
+    grid-row: 3;
+}
+
+/*interesting facts- 2 rows*/
+.section-6 {
+    grid-column: 1/13;
+    grid-row: 4;
+}
+
+/*footer*/
+.section-7 {
+    grid-column: 1/13;
+    grid-row: 5;
+}
+
+
+img {
+    max-width: 300px;
+}
+
